@@ -1,7 +1,6 @@
 # WebApplicationTP2
 
 # Teste de Performance 2 - Páginas Razor
-=======
 
 Este é um projeto de teste de performance (TP) para praticar os conhecimentos adquiridos sobre o framework .NET e a criação de páginas Razor.
 
@@ -41,16 +40,14 @@ namespace RazorPagesApp.Pages
             Message = "Hello, world!";
         }
     }
-<<<<<<< HEAD
 }
-=======
+
 }
 ```
 ```html
-<!-- PÃ¡gina Razor Index.cshtml -->
+<!-- Página Razor Index.cshtml -->
 @page
 @model IndexModel
-<h1>PÃ¡gina Inicial</h1>
+<h1>Página Inicial</h1>
 <p>@Model.Message</p>
 ```
->>>>>>> 5f7145b5c915c449483e7e465b73b2a2de6ffc58
