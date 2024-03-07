@@ -1,36 +1,33 @@
 # WebApplicationTP2
 
-<<<<<<< HEAD
-# Teste de Performance 2 - P·ginas Razor
-=======
 # Teste de Performance 2 - P√°ginas Razor
->>>>>>> 5f7145b5c915c449483e7e465b73b2a2de6ffc58
+=======
 
-Este È um projeto de teste de performance (TP) para praticar os conhecimentos adquiridos sobre o framework .NET e a criaÁ„o de p·ginas Razor.
+Este √© um projeto de teste de performance (TP) para praticar os conhecimentos adquiridos sobre o framework .NET e a cria√ß√£o de p√°ginas Razor.
 
 ## Sobre o projeto
 
-O projeto consiste em uma aplicaÁ„o web simples que utiliza o ASP.NET Core e as p·ginas Razor para exibir informaÁıes sobre pessoas. O projeto foi desenvolvido no Visual Studio e segue a estrutura padr„o de uma aplicaÁ„o web com ASP.NET Core.
+O projeto consiste em uma aplica√ß√£o web simples que utiliza o ASP.NET Core e as p√°ginas Razor para exibir informa√ß√µes sobre pessoas. O projeto foi desenvolvido no Visual Studio e segue a estrutura padr√£o de uma aplica√ß√£o web com ASP.NET Core.
 
 ## Perguntas e respostas
 
-Neste documento, vou responder ‡s seguintes perguntas relacionadas ‡ criaÁ„o de p·ginas Razor:
+Neste documento, vou responder √†s seguintes perguntas relacionadas √† cria√ß√£o de p√°ginas Razor:
 
-- O que s„o as p·ginas Razor do ASP.NET Core e como funciona a sua estrutura?
-- Crie uma aplicaÁ„o Web no Visual Studio utilizando o ASP .NET Core. 
-- Execute e capture a tela inicial da sua aplicaÁ„o.
-- Altere a p·gina Index para apresentar no tÌtulo da aba do browser ìP·gina do ALUNOî. Nesta p·gina, apresente uma mensagem motivacional. Criar uma classe ìPessoa" com os atributos encapsulados chamado nome, idade, CPF. Criar propriedades para acessar estes dados. Criar uma nova p·gina Razor na pasta Pages e fazÍ-la a p·gina default a ser apresentada quando a aplicaÁ„o for executada. AlÈm disso, apresente na tela elementos da classe Pessoa que est„o em uma lista.
+- O que s√£o as p√°ginas Razor do ASP.NET Core e como funciona a sua estrutura?
+- Crie uma aplica√ß√£o Web no Visual Studio utilizando o ASP .NET Core. 
+- Execute e capture a tela inicial da sua aplica√ß√£o.
+- Altere a p√°gina Index para apresentar no t√≠tulo da aba do browser ‚ÄúP√°gina do ALUNO‚Äù. Nesta p√°gina, apresente uma mensagem motivacional. Criar uma classe ‚ÄúPessoa" com os atributos encapsulados chamado nome, idade, CPF. Criar propriedades para acessar estes dados. Criar uma nova p√°gina Razor na pasta Pages e faz√™-la a p√°gina default a ser apresentada quando a aplica√ß√£o for executada. Al√©m disso, apresente na tela elementos da classe Pessoa que est√£o em uma lista.
 
-### O que s„o as p·ginas Razor do ASP.NET Core e como funciona a sua estrutura?
+### O que s√£o as p√°ginas Razor do ASP.NET Core e como funciona a sua estrutura?
 
-As p·ginas Razor do ASP.NET Core s„o uma forma de criar p·ginas web din‚micas que combinam cÛdigo C# e HTML. As p·ginas Razor tÍm a extens„o .cshtml e podem conter tags HTML, expressıes C#, diretivas Razor, componentes, entre outros elementos. As p·ginas Razor s„o processadas no servidor e geram o HTML que È enviado para o navegador.
+As p√°ginas Razor do ASP.NET Core s√£o uma forma de criar p√°ginas web din√¢micas que combinam c√≥digo C# e HTML. As p√°ginas Razor t√™m a extens√£o .cshtml e podem conter tags HTML, express√µes C#, diretivas Razor, componentes, entre outros elementos. As p√°ginas Razor s√£o processadas no servidor e geram o HTML que √© enviado para o navegador.
 
-A estrutura de uma p·gina Razor È composta por duas partes principais: o modelo de p·gina e a p·gina Razor. O modelo de p·gina È uma classe C# que herda de PageModel e contÈm a lÛgica e os dados da p·gina. A p·gina Razor È um arquivo .cshtml que contÈm o cÛdigo HTML e C# que define a aparÍncia da p·gina. A p·gina Razor usa a diretiva @model para referenciar o modelo de p·gina correspondente.
+A estrutura de uma p√°gina Razor √© composta por duas partes principais: o modelo de p√°gina e a p√°gina Razor. O modelo de p√°gina √© uma classe C# que herda de PageModel e cont√©m a l√≥gica e os dados da p√°gina. A p√°gina Razor √© um arquivo .cshtml que cont√©m o c√≥digo HTML e C# que define a apar√™ncia da p√°gina. A p√°gina Razor usa a diretiva @model para referenciar o modelo de p√°gina correspondente.
 
-Um exemplo de modelo de p·gina e p·gina Razor È o seguinte:
+Um exemplo de modelo de p√°gina e p√°gina Razor √© o seguinte:
 
 ```csharp
-// Modelo de p·gina IndexModel.cs
+// Modelo de p√°gina IndexModel.cs
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace RazorPagesApp.Pages
@@ -50,10 +47,10 @@ namespace RazorPagesApp.Pages
 }
 ```
 ```html
-<!-- P√°gina Razor Index.cshtml -->
+<!-- P√É¬°gina Razor Index.cshtml -->
 @page
 @model IndexModel
-<h1>P√°gina Inicial</h1>
+<h1>P√É¬°gina Inicial</h1>
 <p>@Model.Message</p>
 ```
 >>>>>>> 5f7145b5c915c449483e7e465b73b2a2de6ffc58
